@@ -17,6 +17,9 @@ How to compile:
 How to run:
 
     $ java -classpath test:glade.jar GLADE_Config.Test
+    
+or 
+
     $ java -classpath test:glade.jar GLADE_Config.Test GLADE_config.txt
 
 If run without any arguments, then the program defaults to "GLADE_config.txt" and assumes that it exists.
