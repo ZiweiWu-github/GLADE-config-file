@@ -11,11 +11,11 @@ Then copy this GitHub repo into where the compiled GLADE JAR file is.
 Compiling and Running
 ====
 How to compile:
-  $ javac -classpath test:glade.jar test/main/GLADE_Config.java
+    $ javac -classpath test:glade.jar test/main/GLADE_Config.java
 
 How to run:
-  $ java -classpath test:glade.jar GLADE_Config.Test
-  $ java -classpath test:glade.jar GLADE_Config.Test GLADE_config.txt
+    $ java -classpath test:glade.jar GLADE_Config.Test
+    $ java -classpath test:glade.jar GLADE_Config.Test GLADE_config.txt
 
 If run without any arguments, then the program defaults to "GLADE_config.txt" and assumes that it exists.
 
