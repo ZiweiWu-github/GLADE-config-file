@@ -29,3 +29,5 @@ Other Notes
 Currently, the program assumes that all folders are created by the user and checks for their existence. That is, you will need to create the output folder for where the serialized grammar will be outputted into. 
 
 The "save_CFG?" option does nothing as of now. Its purpose was to output the inferred CFG as text so that other grammar-based fuzzers can use it. Future work can be to find a good format to do so and implement it.
+
+The default values for the fuzzing options were obtained from the "test/main/Test.java" in the original GLADE GitHub repo.
