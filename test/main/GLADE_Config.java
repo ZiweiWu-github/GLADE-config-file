@@ -43,7 +43,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Test2 {
+public class GLADE_Config {
 	public static final HashMap<String, String[]> option_and_valid_choices = new HashMap<>();
     public static final HashMap<String, Boolean> option_and_boolean = new HashMap<>();
     public static final HashMap<String, File> option_and_directory = new HashMap<>();
