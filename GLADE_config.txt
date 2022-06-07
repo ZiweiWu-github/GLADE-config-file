@@ -1,0 +1,21 @@
+learn_or_fuzz = fuzz                                # mode of operation (learn or fuzz)
+target_program = python3                            # Which program to call in the command line of the OS
+file_extension = .py                                # What type of files does the program use
+input_or_error_stream = error                       # Use input or error stream to determine correct run
+stream_empty? = yes                                 # Should the chosen stream be empty if run correctly
+sample_input_folder = data/inputs-train/python3     # Where the sample inputs are stored
+grammar_output_folder = data/grammars               # Where should the output serialized grammar be stored
+save_CFG? = no                                      # Save CFG as text?
+CFG_output_folder = data/grammars/python            # Where to save the CFG
+
+#-------------New options-------------------
+#The options below can be ignored because they have default values
+fuzz_type = mutation                                 # grammar, mutation, or combined; mutation default
+fuzz_output_num = 10                                 # How many fuzzing outputs to create (in fuzz mode)
+log_file_name = log.txt                              # What should the created log file be named?
+log_verbose? = yes                                   # Make the log file verbose?
+random_seed = 1                                      # Integer seed for reproducible fuzzing outputs
+sample_max_len = 1000                                # Maximum length of fuzzing output
+num_mutations = 20                                   # Number of mutations for output
+
+
